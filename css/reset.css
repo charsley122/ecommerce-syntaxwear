@@ -1,0 +1,52 @@
+/* ============================================
+   RESET CSS - Baseado no Andy Bell's Modern CSS Reset
+   https://andy-bell.co.uk/a-modern-css-reset/
+   ============================================ */
+
+/* Remove padrões de margin e padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Permite percentuais em elementos filhos */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove espaço em branco extra dentro de elementos específicos */
+html, body {
+  height: 100%;
+}
+
+/* Define defaults melhores para tipografia */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Melhora a exibição de mídia por padrão */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Herança de fonts para inputs e buttons */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Evita comportamento de overflow em parágrafos */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Remove comportamento padrão de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
+}
