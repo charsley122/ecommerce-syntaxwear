@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SyntaxWear - Ecommerce de Tênis</title>
+    <title>syntaxwear - Tênis e sneaker online</title>
     <!-- CSS Base -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -16,16 +17,34 @@
     <link rel="stylesheet" href="css/components/produtos-destaque.css">
     <link rel="stylesheet" href="css/components/footer.css">
     <link rel="stylesheet" href="./css/variabbles.css">
+    <link rel="stylesheet" href="./css/components/header.css">
 </head>
+
 <body>
-    <!-- Header com logo e navegação -->
-    <header>
-        <div class="logo">
-            <!-- Logo aqui -->
-             titulo
-        </div>
-        <nav>
-            <!-- Links de navegação -->
+
+    <header class="header">
+        <h1 class="logo">
+            <a href="/">
+                <img src="./images/logo/logo.svg" alt="ssyntaxwear - Tênis e sneaker online">
+            </a>
+        </h1>
+
+        <nav class="nav-center" aria-label="categorias principais">
+            <ul>
+                <li><a href="#">masculin</a></li>
+                <li><a href="#">feminino</a></li>
+                <li><a href="#">outlet</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-secondary" aria-label="menu secundário">
+            <ul>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#"><span class="icon"><img src="./images/icons/minha conta.svg" alt=""></span></a></li>
+                <li><a href="#"><span class="icon"><img src="./images/icons/ajuda.svg" alt=""></span></a></li>
+                <li><a href="#"><span class="icon"><img src="./images/icons/carrinho.svg" alt=""></span></a></li>
+            </ul>
         </nav>
     </header>
 
@@ -52,4 +71,5 @@
         <!-- Informações de contato e links do footer -->
     </footer>
 </body>
+
 </html>
